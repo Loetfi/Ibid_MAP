@@ -17,9 +17,9 @@
 mysql_connect("localhost:45633", "web", "IndiaDelta12345%$#@!") or die(mysql_error()); mysql_select_db("ims_eauction") or die(mysql_error());
 */
 
-$server = "localhost";
-$username = "root";
-$password = "sera123";
+$server = "ibidmysqlserver.mysql.database.azure.com";
+$username = "ibidadminmysql@ibidmysqlserver";
+$password = "Serasi123";
 $database = "dev_map_ibid";
 
 // $server = "localhost:45633";
