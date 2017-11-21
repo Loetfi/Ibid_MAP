@@ -20,7 +20,7 @@ mysql_connect("localhost:45633", "web", "IndiaDelta12345%$#@!") or die(mysql_err
 $server = "ibidmysqlserver.mysql.database.azure.com";
 $username = "ibidadminmysql@ibidmysqlserver";
 $password = "Serasi123";
-$database = "dev_map_ibid";
+$database = "imsmap";
 
 // $server = "localhost:45633";
 // $username = "web";
