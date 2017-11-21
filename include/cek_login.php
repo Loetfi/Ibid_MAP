@@ -16,7 +16,7 @@ $injeksi_username = mysq_real_escape_string($konek, $username);
 $injeksi_password = mysq_real_escape_string($konek, $password);
 
 	
-  $query  = "SELECT * FROM map_users WHERE nick='$username' AND password='$password'";
+  $query  = "SELECT * FROM map_users WHERE username='$username' AND password='$password'";
   $login  = mysql_query($konek, $query);
   $ketemu = mysql_num_rows($login);
   $r      = mysql_fetch_array($login);
